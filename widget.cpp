@@ -5,7 +5,7 @@ Widget::Widget(QWidget *parent)
 {
     resize(500,500);
     piclabel=new QLabel(this);
-    piclabel->setFixedSize(100,100);
+    piclabel->setFixedSize(120,120);
 }
 
 void Widget::paintEvent(QPaintEvent *)
